@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url(img/fon-main.png);
+    background-repeat: repeat;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+h1 {
+    height: 80px;
+    margin-top: 25px;
+    text-align: center;
+    font-family: Impact;
+    font-size: 45px;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    font-family: Impact;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+button {
+    height: 42px;
+    width: 200px;
+    border: 1px solid #6b5c09c9;
+    background: #1b5557;
+    color: wheat;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'times new roman';
+    font-size: 30px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+button:hover {
+    background: #2e979b;
+    font-size: 35px;
+}
+
+footer {
+    display: block;
+    background-color: rgba(127, 255, 212, 0.445);
+    margin-bottom: 0px;
+}
+
+p {
+    margin-left: 50px;
+    font-family: Impact;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.logo {
+    margin-top: 0px;
+    text-align: center;
+    background-image: url(img/logo.png);
+    background-size: 100px;
+    background-repeat: repeat-x;
+    height: 30px;
+}
+
+.wrapper {
+    margin: 0;
+}
+
+.wrapper-2 {
+    max-width: 800px;
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 98px;
+}
+
+.content-i {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 60px; 
+    column-gap: 60px;
+    justify-content: left;
+    align-items: center;
+    columns: 3;
+    max-width: 750px;
+    height: 500px;
+}
+
+.product_block {
+    width: 200px;
+    height: 220px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 0px #383434;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.product_block:hover {
+    box-shadow: 20px 20px 20px 0px;
+}
+
+.product_image {
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    padding-left: 30px;
+}

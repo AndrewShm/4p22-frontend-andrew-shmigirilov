@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url(img/fon-main.png);
+    background-repeat: repeat;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+button {
+    height: 50px;
+    font-family: Impact;
+    font-size: 20px;
+    background: #1b5557;
+    color: wheat;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+button:hover {
+    background: #2e979b;
+    font-size: 25px;
+}
+
+footer {
+    display: block;
+    background-color: rgba(127, 255, 212, 0.445);
+    margin-bottom: 0px;
+}
+
+p {
+    margin-left: 50px;
+    font-family: Impact;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.wrapper {
+    margin: 0;
+}
+
+.logo {
+    margin-top: 0px;
+    text-align: center;
+    background-image: url(img/logo.png);
+    background-size: 100px;
+    background-repeat: repeat-x;
+    height: 30px;
+}
+
+.content {
+    max-width: 800px;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 0px #383434;
+}
+
+
+.main_picture {
+    width: 200px;
+    padding: 0px 10px;
+}
+
+.product_description {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-left: 15px;
+}
+
+.product_name {
+    font-family: Impact;
+    font-size: 72px;
+    font-weight: 350;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.product_category {
+    font-family: Impact;
+    font-size: 50px;
+    font-weight: 350;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.rating {
+    display: flex;
+    justify-content: left;
+    height: 35px;
+    width: 350px;
+    padding-bottom: 40px;
+}
+
+.ul__rating {
+    display: flex;
+    gap: 19px;
+    padding-left: 0px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    width: 250;
+}
+
+.price__text {
+    font-family: Impact;
+    font-size: 20px;
+    font-weight: 22px;
+    text-align: left;
+    height: 60px;
+    width: 100px;
+    padding-top: 15px;
+}
+
+.price__currency {
+    font-family: Impact;
+    font-size: 30px;
+    width: 150;
+    text-align: left;
+}
+
+.description {
+    display: flex;
+    height: 105px;
+    max-width: 350px;
+    font-family: 'Times New Roman';
+    font-size: 12px;
+    font-weight: 250px;
+    padding-top: 25px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: center;
+    color: #00000000
+}
+
+.price__button {
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 0px;
+    height: 50px;
+}
