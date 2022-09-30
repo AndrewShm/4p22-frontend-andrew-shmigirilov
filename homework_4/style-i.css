@@ -15,10 +15,10 @@ a {
 
 h1 {
     height: 80px;
-    margin-top: 25px;
+    margin-top: 40px;
     text-align: center;
     font-family: Impact;
-    font-size: 45px;
+    font-size: 55px;
     color: black;
 }
 
@@ -55,6 +55,7 @@ footer {
     display: block;
     background-color: rgba(127, 255, 212, 0.445);
     margin-bottom: 0px;
+    margin-top: 100px;
 }
 
 p {
@@ -73,20 +74,7 @@ p {
     height: 30px;
 }
 
-.wrapper {
-    margin: 0;
-}
-
-.wrapper-2 {
-    max-width: 800px;
-    height: 900px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 98px;
-}
-
-.content-i {
+.content {
     display: flex;
     flex-wrap: wrap;
     row-gap: 60px; 
@@ -95,7 +83,8 @@ p {
     align-items: center;
     columns: 3;
     max-width: 750px;
-    height: 500px;
+    height: 700px;
+    margin: auto;
 }
 
 .product_block {
