@@ -72,11 +72,13 @@
     height: 400px;
     background-color: rgba(0, 0, 0, 0.329);
     border-radius: 25px;
+    box-shadow: 10px 10px 10px 0px #3834347c;
 }
 
 .main-content__heading {
     display: block;
     text-align: center;
+    font-size: 35px;
     border-radius: 25px 25px 0px 0px;
     background-color: rgba(0, 0, 0, 0.73);
     color: wheat;
@@ -96,6 +98,10 @@
     width: 200px;
     height: 360px;
     border-right: 1px solid #000000;
+}
+
+.useful-block__heading {
+    text-align: center;
 }
 
 .name-block {
