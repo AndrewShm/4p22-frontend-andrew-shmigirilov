@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    height: 80px;
+    background: lime;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    min-height: calc(100vh-480px);
+}
+
+.square {
+    /* по умолчанию positin: static */
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: 1px solid blue
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background: red;
+}
+
+.square-1 {
+    position: fixed;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+}
+
+.square-2 {
+    position: absolute;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    background: green;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.square-3 {
+    position: fixed;
+    background: purple;
+    bottom: 0;
+    left: 0;
+}
+
+.square-4 {
+    position: sticky;
+    top: 10px;
+    background: orange;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+}
+
+.square + .circle {
+    background: magenta;
+}
+
+.footer {
+    margin-top: auto;
+    height: 400px;
+    background: gray;
+}
+
+.element {
+    height: 100px;
+    width: 100px;
+    background: red;
+    margin: 10;
+}
+
+.ellipse {
+    border-radius: 50%;
+    height: 70px;
+    width: 100px;
+    background: red;
+}
+
+.container-green > .element,
+.container-green > .ellipse {
+    background: green;
+}

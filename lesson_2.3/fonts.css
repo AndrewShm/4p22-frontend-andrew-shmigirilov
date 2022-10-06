@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Volja';
+    src: url('fonts/Volja.woff2') format(woff2),
+        url('fonts/Volja.woff') format(woff);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
