@@ -87,16 +87,44 @@
 }
 
 .container {
+    position: relative;
     display: flex;
     flex-direction: column;
     height: 360px;
     width: 600px;
 }
 
-.useful-block {
-    position: absolute;
+.sidebar {
+    position: relative;
     width: 200px;
-    height: 360px;
+    height: 180px;
+    min-height: 180px;
+    border-right: 1px solid #000000;
+}
+
+.sidebar__heading {
+    text-align: center;
+}
+
+.sidebar__button {
+    margin: 8px;
+    width: 30px;
+    height: 27px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    background-color: rgba(0, 0, 0, 0.73);
+}
+
+.sidebar_link {
+    color: wheat;
+}
+
+
+.useful-block {
+    position: relative;
+    width: 200px;
+    height: 180px;
+    min-height: 180px;
     border-right: 1px solid #000000;
 }
 
@@ -105,8 +133,8 @@
 }
 
 .name-block {
-    position: relative;
-    top: 0px;
+    position: absolute;
+    top:0;
     left: 200px;
     height: 360px;
     width: 400px;

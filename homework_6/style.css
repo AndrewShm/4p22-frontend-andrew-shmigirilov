@@ -100,12 +100,37 @@
     width: 100%;
 }
 
+.sidebar {
+    position: relative;
+    width: 33.3%;
+    height: 50%;
+    min-height: 180px;
+    border-right: 1px solid #000000;
+}
+
+.sidebar__heading {
+    text-align: center;
+}
+
+.sidebar__button {
+    margin: 4%;
+    width: 15%;
+    height: 15%;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    background-color: rgba(0, 0, 0, 0.73);
+}
+
+.sidebar_link {
+    color: wheat;
+}
+
 .useful-block {
     position: relative;
     width: 33.3%;
     min-width: 200px;
-    height: 100%;
-    min-height: 360px;
+    height: 50%;
+    min-height: 180px;
     border-right: 1px solid #000000;
 }
 

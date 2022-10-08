@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.box-pecentage {
+    /* проценты указываются от родителя */
+    width: 50%;
+    height: 50%; 
+    /* высоту указывают в % только если
+    у родителя четко указана высота*/
+    background-color: green;
+}
+
+.container {
+    font-size: 30px;
+}
+
+.box1 {
+    width: 3em;
+    height: 3em;
+}
