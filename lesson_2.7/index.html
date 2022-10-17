@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 2.7</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <form>
+        <!-- label привязывается к инпуту через атрибут for="..." к айдишнику инпута -->
+        <label for="nameOfInput">Имя</label>
+        <input id="nameOfInput" name="FIO" type="text" placeholder="Введите ваше ФИО">
+        <!-- скрытый лейбл для роботов - можно, но не рекомендуется -->
+        <input aria-label="email" name="email" type="email">
+
+        <input id="password" name="password" type="password">
+<!--не стоит использовать type="number", если только 
+для количественных штук-->
+        <input id="number" name="number" type="number">
+        <input id="tel" name="tel" type="tel">
+    <!--не используется-->
+        <input type="color">
+        <input type="date">
+        <input type="datetime-local">
+        <!--используется-->
+        <input type="file">
+        <div>
+        <input id="checkbox-1" type="checkbox" name="colors" value="RED">
+        <label for="checkbox-1">Красный</label>
+        </div>
+        <div>
+        <input id="checkbox-2" type="checkbox" name="colors" value="YELLOW">
+        <label for="checkbox-2">Желтый</label>
+        </div>
+        <div>
+        <input id="checkbox-3" type="checkbox" name="colors" value="WHITE">
+        <label for="checkbox-3">Белый</label>
+        </div>
+
+        <div>
+            <div class="form__radio"></div>
+            <input id="radio-1" type="radio" name="gender" value="male">
+            <label for="radio-1">Мужчина</label>
+            <input id="radio-2" type="radio" name="gender" value="female">
+            <label for="radio-2">Женщина</label>
+        </div>
+        <label for="language">Язык</label>
+        <select name="laguage" id="language">
+            <option value="RU">Русский</option>
+            <option value="EN">Английский</option>
+            <option value="FR">Французкий</option>
+        </select>
+
+        <label for="textarea">о себе</label>
+        <textarea id="textarea" name="textarea"></textarea>
+<!--можно использовать инпут для кнопки, но не стоит-->
+        <input type="button" value="Отправить">
+        <input type="submit" value="Отправить">
+<!--лучше использовать тег баттон, которая имеет
+тип сабмит по умолчанию-->
+        <button>Отправить</button>
+    </form>
+</body>
+</html>

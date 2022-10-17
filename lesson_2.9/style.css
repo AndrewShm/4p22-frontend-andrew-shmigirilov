@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+a::before {
+    content: +7;
+}
+
+/* у инпута не может быть элемента бефор*/
