@@ -182,7 +182,7 @@ input.form__input-email::placeholder, input.form__input-password::placeholder {
     }
 }
 
-@media screen and (min-width: 769px) and (max-width:1440px) {
+@media screen and (min-width: 769px) {
     .form {
         width: calc(600/1440*100vw);
         border-radius: calc(20/1440*100vw);
