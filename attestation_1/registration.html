@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 7</title>
+    <link rel="stylesheet" href="style-registration.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo"></div>
+        <span class="header__course-logo">PCS Frontend</span>
+        <a class="header__registration" href="registration.html">Регистрация</a>
+        <a class="header__inner" href="index.html">Вход</a>
+    </header>
+    <main>
+        <form class="form">
+            <h1 class="form__heading">Регистрация</h1>
+            <label class="form__label-email" for="emailOfForm">Email</label>
+            <input class="form__input-email" id="emailOfForm" name="email" type="text" placeholder="Введите email">
+            <label class="form__label-password" for="passwordOfForm">Пароль</label>
+            <input class="form__input-password" id="passwordOfForm" name="password" type="password" placeholder="Введите пароль">
+            <label class="form__label-confirm-password" for="confirmPassword">Подтверждение пароля</label>
+            <input class="form__input-confirm-password" id="confirmPassword" name="confirmpassword" type="password" placeholder="Подтвердите пароль">
+            <h2 class="form__gender-heading">Пол</h2>
+            <div class="form__gender-male">
+                <input class="form__gender-input-male" id="radio-1" type="radio" name="gender" value="male">
+                <div class="form__gender-check-male"></div>
+                <div class="form__gender-box-male"></div>
+                <label class="form__gender-label-male" for="radio-1">Мужчина</label>
+            </div>
+            <div class="form__gender-female">
+                <input class="form__gender-input-female" id="radio-2" type="radio" name="gender" value="female">
+                <div class="form__gender-check-female"></div>
+                <div class="form__gender-box-female"></div>
+                <label class="form__gender-label-female" for="radio-2">Женщина</label>
+            </div>
+            <label class="form__label-aboutme" for="aboutMe">О себе</label>
+            <input class="form__input-aboutme" id="aboutMe" name="aboutMe" type="text" placeholder="Расскажите о себе...">
+            <div class="form__checkbox">
+                <input class="form__checkbox-input" id="checkboxOfForm" type="checkbox" name="agreement">
+                <div class="form__checkbox-check"></div>
+                <div class="form__checkbox-box"></div>
+                <label class="form__checkbox-label" for="checkboxOfForm">Я согласен получать обновления на почту</label>
+            </div>
+            <button class="form__button">Регистрация</button>
+        </form>
+    </main>
+</body>
+</html>
