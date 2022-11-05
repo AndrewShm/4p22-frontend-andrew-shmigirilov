@@ -25,10 +25,10 @@ button.addEventListener('click', (event) => {
 
         switch (operator) {
             case '': console.log('Не введён знак'); break;
-            case '+': result = Number(firstOperand) + Number(secondOperand); break;
-            case '-': result = Number(firstOperand) - Number(secondOperand); break;
+            case '+': result = (Number(firstOperand)*10 + Number(secondOperand)*10) / 10; break;
+            case '-': result = (Number(firstOperand)*10 - Number(secondOperand)*10) / 10; break;
             case '/': result = Number(firstOperand) / Number(secondOperand); break;
-            case '*': result = Number(firstOperand) * Number(secondOperand); break;
+            case '*': result = ((Number(firstOperand)*10) * (Number(secondOperand)*10)) / 100 ; break;
             default: console.log('Программа не поддерживает такую операцию'); break;
         };
 
